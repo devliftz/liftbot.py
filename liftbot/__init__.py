@@ -18,7 +18,7 @@ print(Center.XCenter(Colorate.Horizontal(Colors.red_to_yellow, f"""
                     ╚══════╝╚═╝╚═╝        ╚═╝    ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ 
 
                                                                          """)))
-print(Center.XCenter(Colorate.Horizontal(Colors.red_to_yellow, f"Connected {bot.user.name}#{bot.user.discriminator} | Version: 12.1.0 | Time: {current_dateTime.hour}:{current_dateTime.minute}")))
+print(Center.XCenter(Colorate.Horizontal(Colors.red_to_yellow, f"Connected {bot.user.name}#{bot.user.discriminator} | Version: 12.1.1 | Time: {current_dateTime.hour}:{current_dateTime.minute}")))
 
 
 @bot.event
