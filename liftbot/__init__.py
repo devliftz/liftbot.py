@@ -21,9 +21,14 @@ async def on_ready():
 
                                                                          
      ┌────────────────────────────────────────────────────────────────────────────────────────┐
-                        Connected {bot.user.name}#{bot.user.discriminator} | Version: 5.0.1 | Time: {current_dateTime.hour}:{current_dateTime.minute}
+                        Connected {bot.user.name}#{bot.user.discriminator} | Version: 1.1.0 | Time: {current_dateTime.hour}:{current_dateTime.minute}
      └────────────────────────────────────────────────────────────────────────────────────────┘""")
     print(logomn)
+
+@bot.event
+async def on_command(ctx):
+    log = gradient.purplepink(f"""Command {ctx.command.name} used by {ctx.author.name}""")
+    print(log)
 
 def login(token):
     bot.run(f"{token}")
