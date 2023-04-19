@@ -23,7 +23,7 @@ async def on_ready():
                         ╚══════╝╚═╝╚═╝        ╚═╝   ╚═════╝  ╚═════╝    ╚═╝   
 
                                                       """)))
-    print(Center.XCenter(Colorate.Horizontal(Colors.red_to_yellow, f"Connected \033[1m{bot.user.name}#{bot.user.discriminator}\033[0m | Version: 12.1.8 | Local Time: {current_dateTime.hour}:{current_dateTime.minute}")))
+    print(Center.XCenter(Colorate.Horizontal(Colors.red_to_yellow, f"Connected \033[1m{bot.user.name}#{bot.user.discriminator}\033[0m | Version: 12.2.0 | Local Time: {current_dateTime.hour}:{current_dateTime.minute}")))
 
 
 @bot.event
