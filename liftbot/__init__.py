@@ -22,7 +22,7 @@ async def on_ready():
 
                                                                          
      ┌────────────────────────────────────────────────────────────────────────────────────────┐
-                        Connected {bot.user.name}#{bot.user.discriminator} | Version: 1.5.0 | Time: {current_dateTime.hour}:{current_dateTime.minute}
+                        Connected {bot.user.name}#{bot.user.discriminator} | Version: 1.5.1 | Time: {current_dateTime.hour}:{current_dateTime.minute}
      └────────────────────────────────────────────────────────────────────────────────────────┘""")
     print(logomn)
 
@@ -30,7 +30,7 @@ async def on_ready():
 async def on_command(ctx):
     log = gradient.purplepink(f"""Command {ctx.command.name} used by {ctx.author.name}""")
     print(log)
-    print(Center.XCenter(Colorate.Horizontal(Colors.purple_to_blue, f"Command {ctx.command.name} was used", 1)))
+    print(Center.XCenter(Colorate.Horizontal(Colors.red_to_yellow, f"Command {ctx.command.name} was used", 1)))
 
 def login(token):
     bot.run(f"{token}")
