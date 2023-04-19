@@ -22,7 +22,7 @@ async def on_ready():
 
                                                                          
      ┌────────────────────────────────────────────────────────────────────────────────────────┐
-                        Connected {bot.user.name}#{bot.user.discriminator} | Version: 1.1.0 | Time: {current_dateTime.hour}:{current_dateTime.minute}
+                        Connected {bot.user.name}#{bot.user.discriminator} | Version: 1.5.0 | Time: {current_dateTime.hour}:{current_dateTime.minute}
      └────────────────────────────────────────────────────────────────────────────────────────┘""")
     print(logomn)
 
