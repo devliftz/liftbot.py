@@ -6,7 +6,7 @@ packages = [
 
 setup(
     name="liftbot.py selfbot",
-    version=f"12.1.5",
+    version=f"12.1.6",
     packages=packages,
     include_package_data=True,
     license="MIT License",
